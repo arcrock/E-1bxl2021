@@ -34,10 +34,10 @@ def mycurvefit(func,XX,YY,UNCERT,xlabel=None,ylabel=None,p0=None):
 
     #### print 'slope' and 'y-intercept' instead
     mystring = '\t ' + 'slope' + ' = '
-    print(mystring,round(fitparams[0],2),'+/-',round(fiterrs[0],2))
+    print(mystring,round(fitparams[0],5),'+/-',round(fiterrs[0],5))
 
     mystring = '\t ' + 'y-intercept' + ' = '
-    print(mystring,round(fitparams[1],2),'+/-',round(fiterrs[1],2))
+    print(mystring,round(fitparams[1],5),'+/-',round(fiterrs[1],5))
 
     ##################################################
     #                Begin Plotting                  #
